@@ -1,0 +1,29 @@
+h1 {
+    color: #333;
+}
+
+body {
+    background: url('Obloha.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Styly pro široké obrazovky */
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Styly pro tablety a malé obrazovky */
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Styly pro mobilní zařízení */
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
